@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b17e9a7-b25b-4039-b13f-104f5ecc6d4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/baitap4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
       <workItem from="1617866160366" duration="292000" />
       <workItem from="1617949518969" duration="8798000" />
       <workItem from="1617959167398" duration="4707000" />
-      <workItem from="1618189921466" duration="4051000" />
+      <workItem from="1618189921466" duration="7886000" />
     </task>
     <servers />
   </component>

@@ -18,31 +18,30 @@ if(isset($_GET['search']) && $_GET['search'] ==! "" ){
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<h1>Tìm kiếm</h1>
-<form method ="GET">
-    <input type= "text" name="search"/>
-    <button type = "submit">Tìm</button>
-</form>
-<div>
-    <p>
-        <?php
-        if(count($all) != 0){
-        echo "<h2>từ khóa:.$keyword.</h2>";
-        foreach($all as $item){
-        ?>
-        <b>Câu hỏi:</b><?php echo $questions->ChanceColor($item,$keyword) ?> <hr>
-    <?php }
-    }else{
-            echo "từ khóa: $keyword không có kết quả";
-    }
-    ?>
-    </p>
-</div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    <h1>Tìm kiếm</h1>
+    <form method ="GET">
+        <input type= "text" name="search"/>
+        <button type = "submit">Tìm</button>
+    </form>
+    <div>
+        <p>
+            <?php
+            if(count($all) != 0){
+                echo "<h2>từ khóa:.$keyword.</h2>";
+            foreach($all as $item){
+            ?>
+            <b>Câu hỏi:</b><?php echo $questions->ChanceColor($item,$keyword) ?> <hr>
+        <?php }
+        }else{
+                echo "từ khóa: $keyword không có kết quả";
+        }?>
+        </p>
+    </div>
+    </body>
 </html>

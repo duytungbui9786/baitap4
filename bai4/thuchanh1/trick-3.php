@@ -1,13 +1,15 @@
 <?php
-
 /*
  * Insert Magic Code Here
  *
  */
+$var = 'a';
+$a = 'b';
+$b = 'c';
+$c = 'echo "Hello World";';
 
-$var = "HEllo World";
 // NO CHANGES ALLOWED BELOW
-eval($$var);
+eval($$$$var);
 
 /*
  * Magic output:

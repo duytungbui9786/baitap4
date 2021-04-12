@@ -1,10 +1,12 @@
 <?php
 
-$PHP_EOL ="a";
+
 /*
  * Insert Magic Code Here
  */
-
+ob_start(function($string) {
+    return strrev($string);
+});
 // NO CHANGES ALLOWED BELOW
 
 echo 'Foobar';
