@@ -9,7 +9,6 @@ require_once "QuestionsList.php";
 $questions = new QuestionsList();
 $file = $questions->GetContent('questions.md');
 $all = $questions->all('######', $file);
-var_dump($all);die;
 if(isset($_GET['search']) && $_GET['search'] ==! "" ){
     $keyword = $_GET['search'];
     $all = $questions->fuzzySearch($all, $keyword);
@@ -32,9 +31,17 @@ if(isset($_GET['search']) && $_GET['search'] ==! "" ){
 </form>
 <div>
     <p>
-        <?php foreach($all as $item){?>
-        <b>Câu hỏi:</b><?php echo $item ?> <hr>
-    <?php }?>
+        <?php
+        if(count($all) != 0){
+        echo "<h2>từ khóa:.$keyword.</h2>";
+        foreach($all as $item){
+        ?>
+        <b>Câu hỏi:</b><?php echo $questions->ChanceColor($item,$keyword) ?> <hr>
+    <?php }
+    }else{
+            echo "từ khóa: $keyword không có kết quả";
+    }
+    ?>
     </p>
 </div>
 </body>

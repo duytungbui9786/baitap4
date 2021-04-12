@@ -13,14 +13,17 @@ class QuestionsList {
     }
 
     public function fuzzySearch($array_questions, $keyword){
-        $result_array = [];
+        $result = [];
         foreach($array_questions as $value){
-            // var_dump(stristr($value, $keyword));die;
             if(strpos($value, $keyword)!== false){
-                $result_array[] = $value;
+                $result[] = $value;
             }
         }
-        return $result_array;
+        return $result;
+    }
+    public function ChanceColor($str, $keyword)
+    {
+        return str_replace($keyword, "<span style='color:red;'>$keyword</span>", $str);
     }
 }
 
