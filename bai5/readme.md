@@ -1,6 +1,6 @@
 # Bài tập Trainee
 
-
+###Tìm hiểu về composer  , hiểu và có thể triển khai design pattern thông dụng ,Cách tạo, public và require 1 package php
 
 Thực hiện bởi [Bùi Duy Tùng](https://github.com/duytungbui9786/Bai5)
 
