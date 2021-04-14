@@ -1,4 +1,4 @@
 <?php
-use \ThucHanh\Hello;
-$test = new Hello();
-echo $test->SayHello();
+require_once 'vendor/autoload.php';
+$test = new \Tungdb\Bai5\Bai5();
+echo $test->say();

@@ -1,0 +1,49 @@
+[
+    {
+        "name": "thuchanh/bai5",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/duytungbui9786/Bai5.git",
+            "reference": "8c641f20861533f7513cce064e8b2f00a5461b9c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/duytungbui9786/Bai5/zipball/8c641f20861533f7513cce064e8b2f00a5461b9c",
+            "reference": "8c641f20861533f7513cce064e8b2f00a5461b9c",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7.0"
+        },
+        "time": "2021-04-14T07:33:13+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Tungdb\\Bai5\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Tung Bui",
+                "email": "duytungbui9786@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "thuc hanh 5",
+        "homepage": "https://github.com/tungdb/bai5",
+        "keywords": [
+            "bai5",
+            "tungdb"
+        ]
+    }
+]

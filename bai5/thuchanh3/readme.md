@@ -12,14 +12,14 @@ Thực hiện bởi [Bùi Duy Tùng](https://github.com/duytungbui9786/Bai5)
 
 ```bash
 $ composer require thuchanh/bai5
-or 
-$ composer require thuchanh/bai5:dev-master
+
 ```
 
 ## cách dùng
 ````
-use ThucHanh/Hello;
-$new = new Hello();
-echo $new->SayHello();
+
+require_once 'vendor/autoload.php';
+$test = new \Tungdb\Bai5\Bai5();
+echo $test->say();
 
 ````
