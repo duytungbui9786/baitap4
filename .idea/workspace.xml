@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b17e9a7-b25b-4039-b13f-104f5ecc6d4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai5/thuchanh1/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +39,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai5/thuchanh3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai4" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bai4" />
       <recent name="$PROJECT_DIR$/bai5/thuchanh3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -72,7 +72,7 @@
       <workItem from="1618304474484" duration="3940000" />
       <workItem from="1618362559893" duration="582000" />
       <workItem from="1618363297455" duration="6759000" />
-      <workItem from="1618370184400" duration="1600000" />
+      <workItem from="1618370184400" duration="2550000" />
     </task>
     <servers />
   </component>
